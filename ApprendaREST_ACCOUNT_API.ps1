@@ -1,7 +1,5 @@
-$baseURI  = "https://apps.apprenda.harp/"
-#$baseURI  = "https://apps.apprenda.<insert platform URL>/"
-#$authJSON = '{"username":"<insert email address>","password":"<insert password>"}'
-$authJSON = '{"username":"mmichael@apprenda.com","password":"password"}'
+$baseURI  = "https://apps.apprenda.<insert platform URL>/"
+$authJSON = '{"username":"<insert email address>","password":"<insert password>"}'
 $global:ApprendaSessiontoken = [string]::Empty
 
 function GetSessionToken($body, $authURI)
